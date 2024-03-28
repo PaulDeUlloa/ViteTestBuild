@@ -1,13 +1,13 @@
 import "./App.css";
 import { Routes, Route } from "react-dom";
-import Duel from "./components/Duel.jsx";
+import CardClass from "./components/CardClass.jsx";
 
 function App() {
   return (
     <>
       <p>Hello Vite World!</p>
       <Routes>
-        <Route path="/" element={<Duel />} />
+        <Route path="/" element={<CardClass />} />
       </Routes>
     </>
   );
