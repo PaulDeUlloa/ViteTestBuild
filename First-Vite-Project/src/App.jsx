@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-dom";
-import CardClass from "./components/CardClass.jsx";
+import CardClass from "./components/CardClass.js";
 
 function App() {
   return (
